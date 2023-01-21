@@ -389,22 +389,33 @@ a {
 }
 
 .ParagraphHealthyPlates {
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Moon Dance', cursive;
   margin-top: 95px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   color: #77d86b;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .ParagraphHealthyPlates2 {
   font-size: 25px;
   font-family: 'Bree Serif', serif;
   color: #9a1f1f;
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .ParagraphHealthyPlates3 {
   font-size: 25px;
   font-family: 'Alegreya', serif;
   color: #dcdcdc;
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .TableHealthyPlates,
@@ -423,9 +434,12 @@ a {
 .col1 {
   width: 50%;
   float: left;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .col2 {
   width: 50%;
   float: right;
+  margin-right: 20px;
 }

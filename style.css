@@ -450,20 +450,27 @@ a {
   font-size: 23px;
   margin-top: 95px;
   font-family: 'Source Serif Pro', serif;
+}
+  
+.BulletsDietsPlan{
+  color: aliceblue;
+  font-size: 40px;
+  font-family: 'Teko', sans-serif;
+  
   }
   
-  .BulletsDietsPlan{
-    color: aliceblue;
-    margin-left: 25px;
-    font-size: 25px;
-    font-family: 'Teko', sans-serif;
+.ParagraphDietsPlans2{
+  margin-left: 25px;
+  margin-right: 23px;
+  font-size: 25px;
+  color: #FFD700;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.imagemediterraneanDiets{
+  text-align: left;
+}
   
-  }
-  
-  .imagemediterraneanDiets{
-    text-align: left;
-  }
-  
-  .imageDashDiets{
-    text-align: right;
-  }
+.imageDashDiets{
+  text-align: right;
+}

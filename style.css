@@ -53,7 +53,7 @@ img {
 
 }
 
-.nav-area {
+ .nav-area {
   margin-top: 30px;
   background: #262626;
 }
@@ -113,9 +113,9 @@ img {
 
 .nav-area ul ul ul li:hover a {
   background: #34495e;
-}
+} 
 
-/* .navMenu {
+/*.nav-area{
   position: absolute;
   top: 15%;
   left: 18%;
@@ -123,7 +123,7 @@ img {
   transform: translate(-8%, 20%);
 }
 
-.navMenu ul ul {
+.nav-area ul ul {
   position: absolute;
   padding: 0;
   min-width: 160px;
@@ -132,7 +132,7 @@ img {
   left: 0;
 }
 
-.navMenu ul li a {
+.nav-area ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.1em;
@@ -144,11 +144,11 @@ img {
   margin-left: 2.1em;
 }
 
-.navMenu ul li a:hover {
+.nav-area ul li a:hover {
   color: #fddb3a;
 }
 
-.navMenu li .dot {
+.nav-area li .dot {
   width: 6px;
   height: 6px;
   background: #fddb3a;
@@ -160,7 +160,7 @@ img {
   transition: all 0.2s ease-in-out;
 }
 
-.navMenu a:nth-child(1):hover~.dot {
+.nav-area a:nth-child(1):hover~.dot {
   -webkit-transform: translateX(59px);
   transform: translateX(59px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -168,7 +168,7 @@ img {
   opacity: 1;
 }
 
-.navMenu a:nth-child(2):hover~.dot {
+.nav-area a:nth-child(2):hover~.dot {
   -webkit-transform: translateX(199px);
   transform: translateX(199px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -176,7 +176,7 @@ img {
   opacity: 1;
 }
 
-.navMenu a:nth-child(3):hover~.dot {
+.nav-area a:nth-child(3):hover~.dot {
   -webkit-transform: translateX(375px);
   transform: translateX(375px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -184,7 +184,7 @@ img {
   opacity: 1;
 }
 
-.navMenu a:nth-child(4):hover~.dot {
+.nav-area a:nth-child(4):hover~.dot {
   -webkit-transform: translateX(524px);
   transform: translateX(524px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -192,7 +192,7 @@ img {
   opacity: 1;
 }
 
-.navMenu a:nth-child(5):hover~.dot {
+.nav-area a:nth-child(5):hover~.dot {
   -webkit-transform: translateX(645px);
   transform: translateX(645px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -200,7 +200,7 @@ img {
   opacity: 1;
 }
 
-.navMenu a:nth-child(6):hover~.dot {
+.nav-area a:nth-child(6):hover~.dot {
   -webkit-transform: translateX(791px);
   transform: translateX(791px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -208,7 +208,7 @@ img {
   opacity: 1;
 }
 
-.navMenu a:nth-child(7):hover~.dot {
+.nav-area a:nth-child(7):hover~.dot {
   -webkit-transform: translateX(933px);
   transform: translateX(933px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -444,6 +444,3 @@ a {
   margin-right: 20px;
 }
 
-.nav-area{
-  color: #fff;
-}
